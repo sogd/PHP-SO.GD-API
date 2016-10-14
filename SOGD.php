@@ -100,7 +100,6 @@ class SOGD {
             curl_setopt($this->curl, CURLOPT_POSTFIELDS, $param);
         }
         curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, TRUE);
-        echo curl_exec($this->curl);
         if(!$this->result = curl_exec($this->curl)){ 
             trigger_error(curl_error($this->curl)); 
         }
