@@ -112,7 +112,7 @@ include 'SOGD.php';
 $api = new SOGD('your_token');
 
 $result = $api->DELETE('http://so.gd/XXXXX');
-echo $result->ok;
+echo $result->status;
 echo '<br />';
 echo $result->message;
 ?>
