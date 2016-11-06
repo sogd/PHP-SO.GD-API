@@ -63,8 +63,7 @@ echo $result->message;
 ```
 
 
-PUT Publishers
-------------
+### PUT
 
 ```
 
@@ -100,8 +99,7 @@ echo $result->message;
 ```
 
 
-DELETE Publishers
-------------
+### DELETE
 
 ```
 
@@ -121,8 +119,8 @@ echo $result->message;
 ## Protection Iframe
 
 
-GET Protection Iframe
-------------
+### GET
+
 
 ```
 
@@ -148,8 +146,7 @@ echo $result->name;
 ```
 
 
-POST Protection Iframe
-------------
+### POST
 
 ```
 
@@ -181,8 +178,7 @@ echo $result->message;
 ```
 
 
-PUT Protection Iframe
-------------
+### PUT
 
 ```
 
@@ -221,8 +217,7 @@ echo $result->message;
 ```
 
 
-DELETE Protection Iframe
-------------
+### DELETE
 
 ```
 
