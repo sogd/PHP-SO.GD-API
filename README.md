@@ -9,8 +9,7 @@ This API use cURL, you need to enable lib curl, [http://php.net/manual/en/curl.i
 
 ## Publishers
 
-GET Publishers
-------------
+### GET
 
 ```
 
@@ -33,8 +32,7 @@ echo $result->profit;
 
 ```
 
-POST Publishers
-------------
+###  POST
 
 ```
 
